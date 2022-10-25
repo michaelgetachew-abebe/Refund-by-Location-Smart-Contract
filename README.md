@@ -1,6 +1,6 @@
 # Refund-by-Location-Smart-Contract
 
-![flow-diagram](./imgaes/Eth.jpg)
+![flow-diagram](./images/Eth.jpg)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
