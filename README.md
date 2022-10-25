@@ -53,5 +53,5 @@ Please make sure to update tests as appropriate.
 [issues-url]: https://github.com/michaelgetachew-abebe/Refund-by-Location-Smart-Contract/issues
 [license-shield]: https://img.shields.io/github/license/michaelgetachew-abebe/Refund-by-Location-Smart-Contract.svg?style=for-the-badge
 [license-url]: https://github.com/michaelgetachew-abebe/Refund-by-Location-Smart-Contract/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/github/linkedin/michaelgetachew-abebe/Refund-by-Location-Smart-Contract.svg?style=for-the-badge
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/michael-getachew-abebe-1a1bbb21a
