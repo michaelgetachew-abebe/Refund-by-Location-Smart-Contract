@@ -1,10 +1,10 @@
 # Refund-by-Location-Smart-Contract
 
-![flow-diagram](./images/Eth.jpg)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+![flow-diagram](./images/Eth.jpg)
 
 ## Web3: Refund by Location Smart Contract
 
