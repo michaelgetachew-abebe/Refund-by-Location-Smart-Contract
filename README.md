@@ -4,6 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 ![flow-diagram](./images/Eth.jpg)
 
 ## Web3: Refund by Location Smart Contract
@@ -52,3 +53,5 @@ Please make sure to update tests as appropriate.
 [issues-url]: https://github.com/michaelgetachew-abebe/Refund-by-Location-Smart-Contract/issues
 [license-shield]: https://img.shields.io/github/license/michaelgetachew-abebe/Refund-by-Location-Smart-Contract.svg?style=for-the-badge
 [license-url]: https://github.com/michaelgetachew-abebe/Refund-by-Location-Smart-Contract/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/github/license/michaelgetachew-abebe/Refund-by-Location-Smart-Contract.svg?style=for-the-badge
+[linkedin-url]: https://www.linkedin.com/in/michael-getachew-abebe-1a1bbb21a
