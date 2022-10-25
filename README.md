@@ -27,7 +27,7 @@ This project is about doing a refund by location smart contract that is aimed to
 # Folder Structure
 
 
-# Instalation
+# Installation
 
 
 # Contributing
