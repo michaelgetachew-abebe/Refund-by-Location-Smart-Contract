@@ -1,25 +1,18 @@
-import { StatusBar } from "expo-status-bar";
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
-// screens
-import Login from "./screens/Login";
-import Welcome from "./screens/Welcome";
-
-// React Navigation Stack
-import RootStack from "./navigators/RootStack";
-
+import Login from './src/screens/Login';
 export default function App() {
-	// return <Welcome />;
-	// return <Login />;
-	return <RootStack />;
+  return (
+    <SafeAreaView>
+      <Login />
+    </SafeAreaView>
+  );
 }
 
 const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: "#fff",
-		alignItems: "center",
-		justifyContent: "center",
-	},
+  container: {
+    flex: 1,
+    backgroundColor: '#F9FBFC'
+  },
 });
