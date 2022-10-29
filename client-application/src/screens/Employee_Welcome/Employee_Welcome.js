@@ -6,7 +6,7 @@ import CustomButton from '../../components/CustomButton'
 import CustomDropdown from '../../components/CustomDropdown'
 import CustomInput from '../../components/CustomInput'
 
-const Login = () => {
+const Employee_Welcome = () => {
     const {height} = useWindowDimensions();
 
     const [password, setPassword] = useState('');
