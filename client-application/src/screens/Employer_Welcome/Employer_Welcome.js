@@ -1,25 +1,24 @@
 import {React,useState} from 'react'
 import {View, Text, Image, StyleSheet, useWindowDimensions, KeyboardAvoidingView} from 'react-native'
-import Logo from '../../../assets/Logo1.jpg'
 import Eth from '../../../assets/eth1.png'
+import Welcome from '../../../assets/Welcome.jpg'
 import CustomButton from '../../components/CustomButton'
-import CustomDropdown from '../../components/CustomDropdown'
-import CustomInput from '../../components/CustomInput'
 
 const Employer_Welcome = () => {
     const {height} = useWindowDimensions();
 
-    const [password, setPassword] = useState('');
-    const onLogin = () => {
-        console.warn("Logged In");
+    const createContract = () => {
+        console.warn("Heading to create a contarct");
+    }
+    const trackEmployee = () => {
+        console.warn("Tracking the Employee")
     }
     return (
         <View style={styles.root}>
             <KeyboardAvoidingView style={styles.container} behavior="padding"></KeyboardAvoidingView>
-            <Image source={Logo} style={[styles.logo, {height: height * 0.8}]} resizeMode="contain" />
-            <CustomDropdown />
-            <CustomInput placeholder="Password" value={password} setValue={setPassword} />
-            <CustomButton text="Login" onPress={onLogin}/>
+            <Image source={Welcome} style={[styles.Welcome, {height: height * 0.8}]} resizeMode="contain" />
+            <CustomButton text="Create a Contract" onPress={createContract}/>
+            <CustomButton text="Track an Employee" onPress={trackEmployee}/>
             <Image source={Eth} style={[styles.ether, {height: height * 0.1}]} resizeMode="contain"/>
         </View>
     )
@@ -30,23 +29,21 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 20,
     },
-    logo : {
+    Welcome : {
         paddingTop: 300,
         width: '70%',
-        maxWidth: 500,
-        maxHeight: 200,
+        maxWidth: 200,
+        maxHeight: 100,
         borderRadius: 150,
-        borderColor: 'black',
         marginBottom: 10,
     },
     ether : {
-        paddingTop: 250,
-        width: '30%',
+        paddingTop: 450,
+        width: '40%',
         maxWidth: 100,
         maxHeight: 200,
-        borderRadius: 150,
-        borderColor: 'black',
-        marginBottom: 10,
+        borderRadius: 100,
+        marginBottom: 100,
     }
 })
-export default Login
+export default Employer_Welcome

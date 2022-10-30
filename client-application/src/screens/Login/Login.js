@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     ether : {
-        paddingTop: 250,
+        paddingTop: 300,
         width: '30%',
         maxWidth: 100,
         maxHeight: 200,
