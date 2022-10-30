@@ -19,6 +19,7 @@ const Employer_Welcome = () => {
             <Image source={Welcome} style={[styles.Welcome, {height: height * 0.8}]} resizeMode="contain" />
             <CustomButton text="Create a Contract" onPress={createContract}/>
             <CustomButton text="Track an Employee" onPress={trackEmployee}/>
+            <CustomButton text="Show Employees" onPress={trackEmployee}/>
             <Image source={Eth} style={[styles.ether, {height: height * 0.1}]} resizeMode="contain"/>
         </View>
     )
@@ -38,7 +39,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     ether : {
-        paddingTop: 450,
+        paddingTop: 360,
         width: '40%',
         maxWidth: 100,
         maxHeight: 200,
