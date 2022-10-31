@@ -5,14 +5,27 @@ import Eth from '../../../assets/eth1.png'
 import CustomButton from '../../components/CustomButton'
 import CustomDropdown from '../../components/CustomDropdown'
 import CustomInput from '../../components/CustomInput'
+import { useNavigation } from '@react-navigation/native'
 
 const Login = () => {
     const {height} = useWindowDimensions();
+    const navigation = useNavigation();
 
     const [password, setPassword] = useState('');
     const onLogin = () => {
-        console.warn("Logged In");
+        // Vertify User
+        if (password == 'admin'){
+            navigation.navigate('Connect');
+        }
+        else if (password == 'employee'){
+            navigation.navigate('Welcome Employee');
+        }
+        else{
+            console.warn("Invalid Role or Password");
+        }
+        
     }
+
     return (
         <View style={styles.root}>
             <KeyboardAvoidingView style={styles.container} behavior="padding"></KeyboardAvoidingView>
@@ -35,12 +48,12 @@ const styles = StyleSheet.create({
         width: '70%',
         maxWidth: 500,
         maxHeight: 200,
-        borderRadius: 150,
-        borderColor: 'black',
+        borderRadius: 250,
+        borderColor: 'white',
         marginBottom: 10,
     },
     ether : {
-        paddingTop: 300,
+        paddingTop: 156,
         width: '30%',
         maxWidth: 100,
         maxHeight: 200,

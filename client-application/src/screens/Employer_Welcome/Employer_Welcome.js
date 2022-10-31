@@ -3,15 +3,19 @@ import {View, Text, Image, StyleSheet, useWindowDimensions, KeyboardAvoidingView
 import Eth from '../../../assets/eth1.png'
 import Welcome from '../../../assets/Welcome.jpg'
 import CustomButton from '../../components/CustomButton'
+import { useNavigation } from '@react-navigation/native'
 
 const Employer_Welcome = () => {
     const {height} = useWindowDimensions();
+    const navigation = useNavigation();
 
     const createContract = () => {
         console.warn("Heading to create a contarct");
+        navigation.navigate('Create');
     }
     const trackEmployee = () => {
         console.warn("Tracking the Employee")
+        navigation.navigate('Track');
     }
     return (
         <View style={styles.root}>
@@ -39,7 +43,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     ether : {
-        paddingTop: 360,
+        paddingTop: 200,
         width: '40%',
         maxWidth: 100,
         maxHeight: 200,

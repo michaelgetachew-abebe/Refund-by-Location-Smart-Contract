@@ -4,7 +4,7 @@ import Eth from '../../../assets/eth1.png'
 import CustomButton from '../../components/CustomButton'
 import CustomInput from '../../components/CustomInput'
 
-const create_Contract = () => {
+const Create_contract = () => {
     const {height} = useWindowDimensions();
 
     const [empname, setEmpname] = useState('');
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
         padding: 20,
     },
     ether : {
-        paddingTop: 210,
+        paddingTop: 13,
         width: '30%',
         maxWidth: 100,
         maxHeight: 200,
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
         margin: 30
     }
 })
-export default create_Contract
+export default Create_contract;
